@@ -15,6 +15,7 @@ Wordpress: _Docker_
 
 # Instalación
 En _Ubuntu_:
+
 Primero debemos actualizar el sistema:
 ```
 $ apt update
