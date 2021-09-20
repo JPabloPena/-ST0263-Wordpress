@@ -14,16 +14,49 @@ Wordpress: _Docker_
 
 
 # Instalación
-En _Ubuntu_:
+En _Debian GNU/Linux 10_:
 
 Primero debemos actualizar el sistema:
 ```
-$ apt update
+$ sudo apt update
 ```
 
 Luego debemos instalar _docker_:
 ```
-$ apt install docker.io docker-compose
+$ sudo apt install docker.io docker-compose
+```
+
+Ir a la carpeta _opt_:
+```
+$ cd /opt/
+```
+
+Crear una carpeta con el nombre de _wordpress_:
+```
+$ sudo mkdir wordpress
+```
+
+Entrar a la carpeta y crear el siguiente fichero:
+```
+$ cd wordpress/
+$ sudo nano docker-compose.yml
+```
+
+Dentro, copiar el código que se encuentra en el siguiente link: () guardamos (Ctrl + o) y salimos (Ctrl + x).
+
+Luego debemos ejecutar:
+```
+$ sudo docker-compose up -d
+```
+
+Finalmente debemos hacer:
+```
+$ sudo docker logs wordpress_wordpress_1
+$ sudo docker logs wordpress_db_1
+```
+
+```
+$ sudo apt install certbot
 ```
 
 # Ejecución
