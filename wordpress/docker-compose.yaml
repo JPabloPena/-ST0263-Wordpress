@@ -51,7 +51,8 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Madrid
-      - URL=proyectos-integradores-eafit.tk    
+      - URL=proyectos-integradores-eafit.tk
+      - URL=www.proyectos-integradores-eafit.tk    
       - EMAIL=pablo27-99@gmail.com  
       - VALIDATION=http
       - STAGING=false 

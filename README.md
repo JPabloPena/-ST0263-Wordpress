@@ -44,20 +44,11 @@ $ sudo nano docker-compose.yml
 
 Dentro, copiar el código que se encuentra en el siguiente link: () guardamos (Ctrl + o) y salimos (Ctrl + x).
 
-Luego debemos ejecutar:
+Finalmente, debemos ejecutar:
 ```
 $ sudo docker-compose up -d
 ```
 
-Finalmente debemos hacer:
-```
-$ sudo docker logs wordpress_wordpress_1
-$ sudo docker logs wordpress_db_1
-```
-
-```
-$ sudo apt install certbot
-```
 
 # Ejecución
 ## Cliente (_publisher.py_)
