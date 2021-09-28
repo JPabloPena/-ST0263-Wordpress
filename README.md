@@ -57,8 +57,8 @@ Listo! Ya puede acceder a través de su página web y configurar su sitio _Wordp
 # Ejecución
 Para acceder solo debe ingresar a alguno de los siguientes enlaces:
 
-[proyectos-integradores-eafit.tk] (Con _SSL)
-
 www.proyectos-integradores-eafit.tk (Con _SSL_)
 
-[35.232.147.128]
+proyectos-integradores-eafit.tk (Con _SSL)
+
+Dirección IP: 35.232.147.128
