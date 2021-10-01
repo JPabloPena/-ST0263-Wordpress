@@ -15,7 +15,7 @@ Página web básica de _Wordpress_ en _Docker_ con certificado _SSL_ haciendo us
 2. Se desplegó una instancia de _VM_ en _Google Cloud Platform (GCP)_.
 3. En _GCP_ se creó una zona en _Cloud DNS_ a la cual se le agregó un conjunto de registro de tipo A con la IP de la instancia y otro registro de tipo CNAME.
 4. Se le asignó una IP estática a la instancia.
-5. En la instancia se clonó este repositorio en el cual se encuentra la lógica básica de la aplicación, la cual se encuentra basada en el _GitHub_ de https://github.com/jmlcas/Docker-WordPress-SSL.
+5. En la instancia se clonó este repositorio en el cual se encuentra la lógica básica de la aplicación, que se encuentra basada en el _GitHub_ de https://github.com/jmlcas/Docker-WordPress-SSL.
 6. Se desplegó la aplicación en _Docker_.
 
 # Instalación
@@ -59,6 +59,11 @@ Para acceder solo debe ingresar a alguno de los siguientes enlaces:
 
 www.proyectos-integradores-eafit.tk (Con _SSL_)
 
-proyectos-integradores-eafit.tk (Con _SSL)
+proyectos-integradores-eafit.tk (Con _SSL_)
 
 Dirección IP: 35.232.147.128
+
+# Cibergrafías
+- https://labarta.es/instalar-wordpress-mysql-nginx-y-ssl-con-docker-compose/
+- https://www.youtube.com/watch?v=N3xWxZt8x2s&list=PLxiktXxIte0tbF1UXLAAGk-1vyssaU4dd&index=36&t=53s
+- https://www.youtube.com/watch?v=KB2ZK6gmHN4&list=PLxiktXxIte0tbF1UXLAAGk-1vyssaU4dd&index=35&t=578s
