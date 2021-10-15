@@ -28,13 +28,16 @@ $ sudo apt-get update
 
 Luego, debemos instalar _git_ para clonar el repositorio:
 ```
-$ sudo apt-get install git
+$ sudo apt-get install git -y
 ```
 
 Posteriormente, debemos instalar _Docker_ y _Docker-Compose_:
 ```
-$ sudo apt-get install docker.io docker-compose
+$ sudo apt-get install docker.io docker-compose -y
 ```
+
+HACER LO DEL FILE STORE ANTES DE CONTINUAR
+
 
 Después, debemos clonar este repositorio:
 ```
