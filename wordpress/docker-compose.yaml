@@ -3,13 +3,13 @@ version: "3.3"
 services:
 
   wordpress:
-    image: wordpress:latest
+    image: wordpress:5.5
     container_name: wordpress
     restart: always
     stdin_open: true
     tty: true
     volumes:
-      - ./mnt/wp:/var/www/html
+      - /mnt/wp:/var/www/html
     env_file: .env
     environment:
       WORDPRESS_DB_HOST: ${MYSQL_HOST}
