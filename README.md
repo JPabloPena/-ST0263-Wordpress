@@ -47,7 +47,6 @@ $ sudo git clone https://github.com/JPabloPena/ST0263-Wordpress.git
 Luego, tenemos que ingresar a la carpeta del repositorio (_ST0263-Wordpress_) y después a la carpeta _wordpress_ que se encuentra adentro:
 ```
 $ cd ST0263-Wordpress/
-$ cd wordpress/ 
 ```
 
 Finalmente, debemos ejecutar:
