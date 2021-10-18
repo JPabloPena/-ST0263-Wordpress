@@ -35,7 +35,7 @@ services:
     container_name: certbot
     volumes:
       - certbot-etc:/etc/letsencrypt
-      - mnt/wp:/var/www/html
+      - /mnt/wp:/var/www/html
     command: certonly --webroot --webroot-path=/var/www/html --email pablo27-99@hotmail.com --agree-tos --no-eff-email --staging -d proyectos-integradores-eafit.tk -d www.proyectos-integradores-eafit.tk
 
 volumes:
